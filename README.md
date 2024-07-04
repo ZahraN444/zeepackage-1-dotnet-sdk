@@ -12,11 +12,11 @@ Find out more about Swagger: [http://swagger.io](http://swagger.io)
 If you are building with .NET CLI tools then you can also use the following command:
 
 ```bash
-dotnet add package Zee.packagetest --version 1.1.1
+dotnet add package Zee.packagetest --version 1.1.2
 ```
 
 You can also view the package at:
-https://www.nuget.org/packages/Zee.packagetest/1.1.1
+https://www.nuget.org/packages/Zee.packagetest/1.1.2
 
 ## Test the SDK
 
@@ -24,7 +24,7 @@ The generated SDK also contain one or more Tests, which are contained in the Tes
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -33,9 +33,9 @@ The following parameters are configurable for the API Client:
 | `TestHeader` | `string` | This is a test header<br>*Default*: `"TestHeaderDefaultValue"` |
 | `Environment` | `Environment` | The API environment. <br> **Default: `Environment.Production`** |
 | `Timeout` | `TimeSpan` | Http client timeout.<br>*Default*: `TimeSpan.FromSeconds(100)` |
-| `ApiKeyCredentials` | [`ApiKeyCredentials`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/custom-header-signature.md) | The Credentials Setter for Custom Header Signature |
-| `HttpBasicCredentials` | [`HttpBasicCredentials`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/basic-authentication.md) | The Credentials Setter for Basic Authentication |
-| `PetstoreAuthCredentials` | [`PetstoreAuthCredentials`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/oauth-2-implicit-grant.md) | The Credentials Setter for OAuth 2 Implicit Grant |
+| `ApiKeyCredentials` | [`ApiKeyCredentials`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/custom-header-signature.md) | The Credentials Setter for Custom Header Signature |
+| `HttpBasicCredentials` | [`HttpBasicCredentials`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/basic-authentication.md) | The Credentials Setter for Basic Authentication |
+| `PetstoreAuthCredentials` | [`PetstoreAuthCredentials`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/oauth-2-implicit-grant.md) | The Credentials Setter for OAuth 2 Implicit Grant |
 
 The API client can be initialized as follows:
 
@@ -85,25 +85,25 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`api_key (Custom Header Signature)`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/custom-header-signature.md)
-* [`httpBasic (Basic Authentication)`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/basic-authentication.md)
-* [`petstore_auth (OAuth 2 Implicit Grant)`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/oauth-2-implicit-grant.md)
+* [`api_key (Custom Header Signature)`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/custom-header-signature.md)
+* [`httpBasic (Basic Authentication)`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/basic-authentication.md)
+* [`petstore_auth (OAuth 2 Implicit Grant)`](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/oauth-2-implicit-grant.md)
 
 ## List of APIs
 
-* [Pet](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/controllers/pet.md)
-* [Store](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/controllers/store.md)
-* [User](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/controllers/user.md)
+* [Pet](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/controllers/pet.md)
+* [Store](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/controllers/store.md)
+* [User](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/controllers/user.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/utility-classes.md)
-* [HttpRequest](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/http-request.md)
-* [HttpResponse](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/http-string-response.md)
-* [HttpContext](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/http-context.md)
-* [HttpClientConfiguration](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/http-client-configuration.md)
-* [HttpClientConfiguration Builder](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/http-client-configuration-builder.md)
-* [IAuthManager](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/i-auth-manager.md)
-* [ApiException](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.1/doc/api-exception.md)
+* [Utility Classes](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/utility-classes.md)
+* [HttpRequest](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/http-request.md)
+* [HttpResponse](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/http-string-response.md)
+* [HttpContext](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/http-context.md)
+* [HttpClientConfiguration](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/http-client-configuration.md)
+* [HttpClientConfiguration Builder](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/http-client-configuration-builder.md)
+* [IAuthManager](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/i-auth-manager.md)
+* [ApiException](https://www.github.com/ZahraN444/zeepackage-1-dotnet-sdk/tree/1.1.2/doc/api-exception.md)
 
